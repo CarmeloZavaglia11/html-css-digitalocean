@@ -1,0 +1,204 @@
+body{
+    font-family: 'Asap', sans-serif;
+}
+
+/* Macroaree */
+
+header{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.blue{
+    background-color: #0069ff;
+    background-image: url("https://www.digitalocean.com//static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: cover;
+    background-position: center;;
+    margin-top: 66px;
+}
+
+.lightgrey {
+    background-color: #f3f5f9;
+}
+
+/* Fine Macroareee */
+
+/* HEADER */
+.logo-header {
+    margin-top: 3px;
+}
+
+.list-nav{
+    margin-left: 20px;
+}
+
+nav ul {
+    margin-top: 7px;
+}
+
+.list-nav ul li{
+    padding-right: 10px;
+}
+
+.list-nav ul li a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.list-nav ul li a:hover {
+    color: #016bff;
+    text-decoration: none;
+}
+
+.list-nav ul li a:focus {
+    text-decoration: none;
+}
+
+.fa-chevron-down {
+    font-size: 0.8em;
+    color: #b1b8c6;
+}
+
+#button-header {
+    float: right;
+    padding-right: 0;
+}
+
+#button-header button {
+    float: right;
+    color: #016bff;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 1px solid #016bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 1s;
+}
+
+#button-header button:hover {
+    color: white;
+    background-color: #016bff;
+}
+
+/* FINE HEADER */
+
+/* FIRST BLUE SECTION */
+
+#jumbome {
+    transition: 1s;
+    color: white;
+    padding: 200px 0 200px 0;
+    background-color: transparent;
+}
+
+#jumbome h1 {
+    font-weight: bold;
+}
+
+.sign-in {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.sign-in h4 {
+    background-color: #f3f5f9;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.form-group {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.form-group:nth-child(1) {
+    margin-top: 30px;
+}
+
+.form-group input {
+    font-size: 1.2em;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #e5e8ed;
+}
+
+form button{
+    color: white;
+    background-color: #016bff;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border: 1px solid #016bff;
+    border-radius: 5px;
+}
+
+.sign-in hr {
+    color: #f9fafc;
+}
+
+.sign-up-google {
+    float: left;
+    margin-left: 40px;
+    color: #016bff;
+    background-color: white;
+    width: 63%;
+}
+
+.github-button {
+    float: left;
+    margin-left: 15px;
+    color: #016bff;
+    background-color: white;
+    width: 13%;
+}
+
+.sign-in-footer {
+    color: white;
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+}
+
+/* END FIRST BLUE SECTION */
+
+/* FIRST LIGHTGREY SECTION */
+
+.brands h4 {
+    color: #5b6987;
+    margin: 50px 0;
+    text-transform: uppercase;
+}
+
+.brands .brand {
+    padding: 0;
+}
+
+.brand img {
+    display: block;
+    margin: 0 auto;
+}
+
+.brands h5 {
+    font-size: 1.2em;
+    margin: 50px 0;
+}
+
+.brands h5 a {
+    color: #0069ff;
+}
+
+.brands h5 a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
