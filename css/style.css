@@ -22,8 +22,26 @@ header{
     margin-top: 66px;
 }
 
+.nations {
+    color: white;
+    background: #031b4e;
+    background-image: url("https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .lightgrey {
     background-color: #f3f5f9;
+}
+
+.register {
+    background-color: #0069ff;
+    background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+}
+
+.black {
+    background-color: #010e28;
 }
 
 /* Fine Macroareee */
@@ -218,7 +236,7 @@ form button{
 }
 
 .titles p {
-    color: #6f69a5;
+    color: #031b4e;
     display: inline-block;
     margin: 20px auto;
     width: 70%;
@@ -265,16 +283,32 @@ form button{
 
 .card {
     margin-bottom: 75px;
+    transition: 1s;
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 .card h3 {
     text-transform: capitalize;
-    font-size: 1.5;
+    font-size: 1.5em;
 }
 
 .card p {
     color: #5b6987;
     font-size: 1.2em;
+}
+
+.card a{
+    color: #0069ff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.card a i{
+    color: #0069ff;
+    font-size: 12px;
 }
 
 /* END SECOND SECTION WHITE */
@@ -316,12 +350,254 @@ form button{
     margin: 20px 0 100px 0;
 }
 
-.radios input[type="radio"] {
+ input[type="radio"] {
     background-color: #0069ff;
     display: inline-block;
     margin: 0 10px;
 }
 
-.radios input[type="radio"]:checked {
+ input[type="radio"]:checked {
     background-color: #0069ff;
 }
+
+/* FINISH SECOND LIGHTGREY SECTION */
+
+/* START THIRD SECTION WHITE */
+
+.built {
+    margin: 50px 0;
+}
+
+/* END THIRD SECTION WHITE */
+
+/* START NATIONS SECTION */
+
+.titles-bg-blue h2 {
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+.titles-bg-blue p {
+    color: white;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+.titles-bg-blue p a {
+    text-decoration: none;
+}
+
+.flights {
+    margin: 30px 0 50px 0;
+}
+
+.row-flight {
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    padding: 10px 0;
+}
+
+.flight-code,
+.destination,
+.test-speed{
+    float: left;
+}
+
+.flight-code {
+    font-weight: bold;
+    text-transform: uppercase;
+    /* margin-right: 60px; */
+}
+
+.destination {
+    position: absolute;
+    left: 120px;
+    color: #5b6987;
+}
+
+.test-speed {
+    margin-left: 223px;
+    float: right;
+}
+
+.test-speed a {
+    text-transform: capitalize;
+    color: #00d7d2;
+    text-decoration: none;
+}
+
+.test-speed a:hover {
+    color: #0069ff;
+}
+
+.test-speed a i {
+    margin-left: 5px;
+}
+
+/* END NATION SECTION */
+
+/* START THIRD LIGHTGREY SECTION */
+
+.development {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.image-development {
+    width: 20%;
+    display: block;
+    margin: 40px auto 20px auto;
+}
+
+.development:before {
+    position: absolute;
+    top: 120px;
+    left: -100px;
+    font-size: 35px;
+    content: '\02C2';
+    cursor: pointer;
+}
+
+.development:after {
+    position: absolute;
+    top: 120px;
+    right: -100px;
+    font-size: 35px;
+    content: ' \02C3';
+    cursor: pointer;
+}
+
+.development p {
+    color: #5b6987;
+    display: inline-block;
+    margin: 10px auto 30px auto;
+    font-size: 2em;
+}
+
+.bio {
+    width: 15%;
+    margin: 10px auto 50px auto;
+}
+
+.bio h5{
+    color: #5b6987;
+    font-size: 1.2em
+}
+
+.bio h6 {
+    color: #99a1b3;
+    font-size: 0.9em
+}
+
+/* END THIRD LIGHTGREY SECTION */
+
+/* START SECOND DARKBLUE SECTION */
+
+.register h2 {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 50px 0;
+}
+
+.register button {
+    transition: 1s;
+    font-size: 1.3em;
+    font-weight: bold;
+    float: right;
+    color: #016bff;
+    background-color: white;
+    margin-top: 62px;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.register button:hover {
+    background-color: rgba(225,225,225,0.9);
+}
+
+/* END SECOND DARKBLUE SECTION */
+
+/* START FOOTER */
+
+.footer-list {
+    padding-top: 80px;
+    padding-left: 50px;
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+}
+
+.footer-items {
+    padding: 0;
+}
+
+.black ul {
+    list-style: none;
+}
+
+.black ul li {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.black a {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.black ul li a{
+    color: hsla(0,0%,100%,0.5);
+}
+
+.black ul li:first-child {
+    padding-bottom: 20px;
+}
+
+.black ul li:first-child a{
+    color: white;
+}
+
+hr {
+    color: hsla(0,0%,100%,0.5);
+}
+
+.footer-bottom-left,
+.footer-bottom-right {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.footer-bottom-left img{
+    display: inline-block;
+}
+
+.footer-bottom-left p {
+    color: hsla(0,0%,100%,0.5);
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.footer-bottom-right ul{
+    margin-top: 10px;
+    padding: 0;
+}
+
+.footer-bottom-right li {
+    margin-right: 5px;
+}
+
+.footer-bottom-right i{
+    font-size: 22px!important;
+    color: hsla(0,0%,100%,0.5);
+}
+
+.footer-bottom-right ul li a i:hover {
+    color: white;
+}
+
+/* END FOOTER */
