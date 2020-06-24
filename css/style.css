@@ -42,8 +42,9 @@ header{
 
 .register {
     background-color: #0069ff;
-    background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
+    background-position: bottom;
 }
 
 .black {
@@ -786,7 +787,7 @@ hr {
 
     .hamburger {
         display: inline-block;
-        height: 100%;
+        margin-top: 10px;
     }
 
     #jumbome {
