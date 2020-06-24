@@ -5,6 +5,11 @@ body{
 /* Macroaree */
 
 header{
+    position: fixed;
+    top: 0;
+    left : 0;
+    right: 0;
+    z-index: 9999;
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -18,7 +23,7 @@ header{
     background-color: #0069ff;
     background-image: url("https://www.digitalocean.com//static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: cover;
-    background-position: center;;
+    background-position: center;
     margin-top: 66px;
 }
 
@@ -49,6 +54,19 @@ header{
 /* HEADER */
 .logo-header {
     margin-top: 3px;
+}
+
+.hamburger {
+    float: right;
+    font-size: 36px;
+    display: none;
+}
+
+.hamburger:hover {
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #0060ff;
 }
 
 .list-nav{
@@ -601,3 +619,127 @@ hr {
 }
 
 /* END FOOTER */
+
+/* MEDIA QUERY MOBILE DEVICES */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        position: absolute;
+    }
+
+    .list-nav {
+        display: none;
+    }
+
+    #button-header {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    #jumbome {
+        text-align: center;
+        transition: 1s;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 0;
+        background-color: transparent;
+    }
+
+    #jumbome h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    #jumbome p {
+        padding: 45px;
+    }
+
+    .sign-in {
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+
+    .sign-in-footer {
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .brand {
+        margin: 20px 0;
+    }
+
+    .list-deploy {
+        margin-top: 50px;
+    }
+
+    .items-list-deploys {
+        margin-bottom: 25px;
+    }
+
+    .list-deploy ul {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .list-deploy li {
+        text-align: center;
+        float: left;
+        width: 20%;
+        padding: 15px 10px;
+        border-left: 0;
+        border-bottom: 2px solid lightgrey;
+    }
+
+    .list-deploy li:hover {
+        border-bottom: 2px solid #0069ff;
+    }
+
+    .list-deploy a {
+        color: rgba(3, 27, 78, 0.6);
+        text-transform: capitalize;
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+        padding: 20px 10px;
+    }
+
+    .list-deploy a:hover{
+        color: rgba(3, 27, 78 );
+    }
+
+    .cards {
+        margin-bottom: 0;
+    }
+
+    .flights .flights:nth-child(1) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .flights .flights:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .register h2 {
+        float: none;
+        text-align: center;
+    }
+
+    .register button {
+        float: none;
+        margin: 0 auto 50px auto;
+    }
+
+    .footer-items {
+        padding-left: 0;
+    }
+
+    .padding-xs-footer {
+        padding-left: 0;
+    }
+
+}
